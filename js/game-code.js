@@ -248,7 +248,7 @@
 			
 			constructor()
 			{
-				this.image = loadImage("game-assets/spaceship-2.png");
+				this.image = loadImage("game-assets/cow-violinist3.png");
 				this.engineSound = createAudio("game-assets/engine.wav");
 			}
 			
@@ -361,11 +361,11 @@
 		*/
 		function preload() 
 		{
-			background = loadImage("game-assets/moon-bg.jpg");		// load the background-image
-			asteroidImage = loadImage("game-assets/asteroid-2.png"); // load once and the pass to Asteroid so that will not load each time an Asteroid is created
+			background = loadImage("game-assets/cowinspace1.jpg");		// load the background-image
+			asteroidImage = loadImage("game-assets/rednote1.png"); // load once and the pass to Asteroid so that will not load each time an Asteroid is created
 			spaceship = new SpaceShip();
 			
-			missileImage = loadImage("game-assets/missile-2.png");
+			missileImage = loadImage("game-assets/blacknote1.png");
 			missilePack = new MissilePack();
 		}
 		
