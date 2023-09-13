@@ -1,5 +1,5 @@
 
-		class Asteroid
+	class Asteroid
 		{
 			/*
 				Use to represent the asteroid objects
@@ -248,7 +248,7 @@
 			
 			constructor()
 			{
-				this.image = loadImage("game-assets/cow-violinist3.png");
+				this.image = loadImage("game-assets/spaceship-2.png");
 				this.engineSound = createAudio("game-assets/engine.wav");
 			}
 			
@@ -375,11 +375,11 @@
 		*/
 		function preload() 
 		{
-			background = loadImage("game-assets/cowinspace1.jpg");		// load the background-image
-			asteroidImage = loadImage("game-assets/rednote1.png"); // load once and the pass to Asteroid so that will not load each time an Asteroid is created
+			background = loadImage("game-assets/spaceship-interior-6.jpg");		// load the background-image
+			asteroidImage = loadImage("game-assets/.png"); asteroid-2// load once and the pass to Asteroid so that will not load each time an Asteroid is created
 			spaceship = new SpaceShip();
 			
-			missileImage = loadImage("game-assets/blacknote1.png");
+			missileImage = loadImage("game-assets/missile-2.png");
 			missilePack = new MissilePack();
 		}
 		
