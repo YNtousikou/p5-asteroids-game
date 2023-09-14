@@ -449,7 +449,7 @@
 					spaceship.movey(-1);
 				}
 				
-				if (keyIsDown(38)) // down arrow is pressed
+				if (keyIsDown(40)) // down arrow is pressed
 				{
 					spaceship.movey(1);
 				}				
